@@ -1,7 +1,20 @@
 # Compiled class file
 *.class
 
-target/
+### allure ####
+/.allure/
+/.allure/allure-2.21.0
+
+### target ###
+!target
+!target/allure-results
+/target/classes
+/target/generated-sources
+/target/generated-test-sources
+/target/maven-status
+/target/surefire-reports
+/target/test-classes
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
